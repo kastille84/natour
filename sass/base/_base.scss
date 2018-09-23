@@ -1,0 +1,21 @@
+/* RESET */
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}    
+
+html {
+    /* default font size is 16px. we want to make it be 10px. 
+    but they could change dfault so we need to use a %. 
+    10/16 = .625 */
+
+    // this defines what 1rem should be
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+}
